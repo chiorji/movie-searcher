@@ -7,7 +7,7 @@ import fetchMovie from '../utils/fetchMovie'
 const App = () => {
 
   const [movies,setMovies] = useState([])
-  const [query, setQuery] = useState('Fast and Furious')
+  const [query, setQuery] = useState('')
   const [isLoading, setISLoading] = useState(false)
   const [hasError, setHasError] = useState(false)
   const apikey = process.env.REACT_APP_APIKEY

@@ -8,7 +8,7 @@ const SearchForm = ({query, change,submit}) => {
             <input
               type='text'
             className='form-control'
-            placeholder='(i.e Fast and Furious)'
+            placeholder='i.e Fast and Furious'
               value={query}
               onChange={change}
             />
